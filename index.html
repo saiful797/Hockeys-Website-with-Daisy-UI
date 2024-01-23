@@ -190,7 +190,7 @@
                 <!-- Card 1 -->
                 <div class="rounded-xl shadow-xl p-2 flex-1 lg:flex border-2 border-red-950">
                     <div class="flex justify-center items-center">
-                        <img class="h-64 lg:h-48 w-2/3 md:w-full" src="Images/5.png" alt="Jacket"/>
+                        <img class="h-64 lg:h-48 w-2/3 md:1/2 lg:w-full" src="Images/5.png" alt="Jacket"/>
                     </div>
                     <div class="space-y-2">
                         <div class="flex pt-2 px-2">
@@ -219,7 +219,7 @@
                 <!-- Card 2 -->
                 <div class="rounded-xl shadow-xl p-2 flex-1 lg:flex border-2 border-red-950">
                     <div class="flex justify-center items-center">
-                        <img class="h-64 lg:h-48 w-2/3 md:w-full" src="Images/6.png" alt="Jacket"/>
+                        <img class="h-64 lg:h-48 w-2/3 md:1/2 lg:w-full" src="Images/6.png" alt="Jacket"/>
                     </div>
                     <div class="space-y-2">
                         <div class="flex pt-2 px-2">
@@ -248,7 +248,7 @@
                 <!-- Card 3 -->
                 <div class="rounded-xl shadow-xl p-2 flex-1 lg:flex border-2 border-red-950">
                     <div class="flex justify-center items-center">
-                        <img class="h-64 lg:h-48 w-2/3 md:w-full" src="Images/7.png" alt="Jacket"/>
+                        <img class="h-64 lg:h-48 w-2/3 md:1/2 lg:w-full" src="Images/7.png" alt="Jacket"/>
                     </div>
                     <div class="space-y-2">
                         <div class="flex pt-2 px-2">
@@ -277,7 +277,7 @@
                 <!-- Card 4 -->
                 <div class="rounded-xl shadow-xl p-2 flex-1 lg:flex border-2 border-red-950">
                     <div class="flex justify-center items-center">
-                        <img class="h-64 lg:h-48 w-2/3 md:w-full" src="Images/8.png" alt="Jacket"/>
+                        <img class="h-64 lg:h-48 w-2/3 md:1/2 lg:w-full" src="Images/8.png" alt="Jacket"/>
                     </div>
                     <div class="space-y-2">
                         <div class="flex pt-2 px-2">
@@ -306,7 +306,7 @@
                 <!-- Card 5 -->
                 <div class="rounded-xl shadow-xl p-2 flex-1 lg:flex border-2 border-red-950">
                     <div class="flex justify-center items-center">
-                        <img class="h-64 lg:h-48 w-2/3 md:w-full" src="Images/9.png" alt="Jacket"/>
+                        <img class="h-64 lg:h-48 w-2/3 md:1/2 lg:w-full" src="Images/9.png" alt="Jacket"/>
                     </div>
                     <div class="space-y-2">
                         <div class="flex pt-2 px-2">
@@ -335,7 +335,7 @@
                 <!-- Card 6 -->
                 <div class="rounded-xl shadow-xl p-2 flex-1 lg:flex border-2 border-red-950">
                     <div class="flex justify-center items-center">
-                        <img class="h-64 lg:h-48 w-2/3 md:w-full" src="Images/10.png" alt="Jacket"/>
+                        <img class="h-64 lg:h-48 w-2/3 md:1/2 lg:w-full" src="Images/10.png" alt="Jacket"/>
                     </div>
                     <div class="space-y-2">
                         <div class="flex pt-2 px-2">
@@ -439,6 +439,7 @@
 
         </section>
 
+        <!-- Get In Touch Section -->
         <section class="container mx-auto pt-10">
             <div class="text-center">
                 <h3 class="text-3xl text-slate-800 font-extrabold">
@@ -449,20 +450,20 @@
                 </p>
             </div>
 
-            <div class="flex space-x-10">
-                <div class="pt-10">
+            <div class="flex-1 md:flex p-10 space-x-10 pt-10">
+                <div class="pt-10 md:w-[600px]">
                     <div class="grid grid-cols-1 space-y-4">
-                        <div class="p-3 space-y-3 bg-[#bced6d1a] rounded-xl">
+                        <div class="pl-10 pt-10 h-52 space-y-3 bg-[#bced6d1a] rounded-xl">
                             <img src="Images/G-1.png" alt="">
                             <h3>Phone Number : </h3>
                             <p>(+62) 123-321-543</p>
                         </div>
-                        <div class="p-3 space-y-3 bg-red-50">
+                        <div class="pl-10 pt-10 h-52 space-y-3 bg-red-50 rounded-xl">
                             <img src="Images/G-2.png" alt="">
                             <h3>Email : </h3>
                             <p>hockeys@support.com</p>
                         </div>
-                        <div class="p-3 space-y-3 bg-green-50">
+                        <div class="pl-10 pt-10 h-52 space-y-3 bg-green-50 rounded-xl">
                             <img src="Images/G-3.png" alt="">
                             <h3>Location : </h3>
                             <p>152/1 Mohakhali Wireless Gate</p>
@@ -470,38 +471,54 @@
                     </div>
                 </div>
                 <!-- Form -->
-                <div class="pt-10 border-2 border-amber-500 w-full text-center">
+                <div class=" pt-10 w-full">
                     <form>
-                        <div class="grid grid-cols-1 text-center">
-                            <div class="flex w-full text-center">
-                                <div>
-                                    <p>Your Name</p>
-                                    <br><br>
-                                    <input type="text" name="" id="" placeholder="Enter your full name">
+                        <div class="grid lg:grid-cols-1 w-full gap-6">
+                            <div class="flex-1 md:flex lg:flex justify-around w-full pb-5">
+                                <div class="">
+                                    <p class="font-bold text-xl">Your Name</p>
+                                    <br>
+                                    <input class="bg-slate-100 h-14 lg:h-10 w-4/5 lg:w-48 p-3 mb-4 lg:mb-0 rounded" type="text" name="" id="" placeholder="Enter your full name">
                                 </div>
                                 <div>
-                                    <p>Your Email</p>
-                                    <br><br>
-                                    <input type="text" name="" id="" placeholder="Enter your email">
-                                </div>
-                            </div>
-                            <div class="flex">
-                                <div>
-                                    <p>Subject</p>
-                                    <br><br>
-                                    <input type="text" name="" id="" placeholder="Enter your subject">
-                                </div>
-                                <div>
-                                    <p>Phone Number</p>
-                                    <br><br>
-                                    <input type="text" name="" id="" placeholder="Enter your phone number">
+                                    <p class="font-bold text-xl">Your Email</p>
+                                    <br>
+                                    <input class="bg-slate-100 h-14 lg:h-10 w-4/5 lg:w-48 p-3 -mb-5 lg:mb-0 rounded" type="text" name="" id="" placeholder="Enter your email">
                                 </div>
                             </div>
-                            <div class="">
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your message"></textarea>
+                            <div class="flex-1 md:flex lg:flex justify-around w-full">
+                                <div>
+                                    <p class="font-bold text-xl">Subject</p>
+                                    <br>
+                                    <input class="bg-slate-100 h-14 lg:h-10 w-4/5 lg:w-48 p-3 mb-4 lg:mb-0 rounded" type="text" name="" id="" placeholder="Enter your subject">
+                                </div>
+                                <div>
+                                    <p class="font-bold text-xl">Phone Number</p>
+                                    <br>
+                                    <input class="bg-slate-100 h-14 lg:h-10 w-4/5 lg:w-48 p-3 mb-4 lg:mb-0 rounded" type="text" name="" id="" placeholder="Enter your phone number">
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full lg:ml-40">
+                                <p class="font-bold text-xl pb-4">Message</p>
+                                <textarea class="bg-slate-100 p-3 rounded h-72 lg:h-[280px] w-[340px] md:w-96 lg:w-[800px]" name="" id="" cols="" rows="" placeholder="Write your message"></textarea>
+
+                                <button class="bg-[#FF4240] w-[340px] md:w-[400px] lg:w-[800px] h-10 mt-7 rounded-lg">
+                                    <p class="text-lg font-medium text-white">Send Message</p>
+                                </button>
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+
+            <!-- Media Section -->
+            <div class="container mx-auto bg-red-50 text-center space-y-3 p-10 h-32 ml-10 w-5/6 lg:w-[1450px] rounded-lg">
+                <h3 class="font-extrabold text-xl">Social Media</h3>
+                <div class="space-x-4">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
                 </div>
             </div>
         </section>
@@ -509,6 +526,44 @@
 
     <!-- Footer Section -->
     <footer>
+        <section class="lg:flex justify-between container mx-auto bg-black mt-10 rounded">
+            <div class=" p-10 text-center lg:text-left">
+                <h3 class="text-3xl font-extrabold text-white pb-5">Get In Touch</h3>
+                <p class="text-white mx-auto font-thin w-[350px]">The business is unique, focusing on Elite Athlete Management as well as Events, Sponsorship & Marketing of brands across sporting industries.</p>
+                <br>
+                <span class="text-white"><i class="pr-3 text-red-600 fa-regular fa-envelope"></i>hockeys@support.com</span>
+                <br>
+                <span class="text-white"><i class="pr-3 text-red-600 fa-solid fa-phone-volume"></i>(+62) 123-321-543</span>
+            </div>
+
+            <span class="flex justify-between lg:w-[500px]">
+                
+                <div class=" p-10 text-white space-y-1">
+                    <h3 class="text-2xl font-bold pb-7">Company</h3>
+                    <p>About us</p>
+                    <p>Leadership</p>
+                    <p>Careers</p>
+                    <p>News & Article</p>
+                    <p> Legal Notice</p>
+                </div>
+                <div class="p-10 text-white space-y-1">
+                    <h3 class="text-2xl font-bold pb-7">Support</h3>
+                    <p>Help Center</p>
+                    <p>FAQ</p>
+                    <p>Ticket Support</p>
+                    <p> Contact Us</p>
+                </div>
+
+            </span>
+            <div class="p-10 text-white text-center lg:text-left space-y-1">
+                <h3 class="text-2xl font-bold pb-7">Services</h3>
+                <p>Academy</p>
+                <p>Group Lesson</p>
+                <p>Private Lesson</p>
+                <p>Hockeys for kids</p>
+                <p>Hockeys for Adult</p>
+            </div>
+        </section>
     </footer>
     
 </body>
