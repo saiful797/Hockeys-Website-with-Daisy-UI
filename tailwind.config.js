@@ -1,4 +1,4 @@
-/*Added tailwind Framework*/
+/*Tailwind Framework for css style*/
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
